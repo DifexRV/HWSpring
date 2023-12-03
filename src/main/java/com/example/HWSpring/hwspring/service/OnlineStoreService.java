@@ -1,10 +1,8 @@
-package com.example.HWSpring.HWSpring.service;
+package com.example.HWSpring.hwspring.service;
 
-import com.example.HWSpring.HWSpring.model.ShoppingCart;
+import com.example.HWSpring.hwspring.model.ShoppingCart;
 
 import java.util.Collection;
-import java.util.List;
-import java.util.Map;
 
 public interface OnlineStoreService {
 

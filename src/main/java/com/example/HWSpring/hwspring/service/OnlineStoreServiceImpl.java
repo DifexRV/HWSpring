@@ -1,9 +1,7 @@
-package com.example.HWSpring.HWSpring.service;
+package com.example.HWSpring.hwspring.service;
 
-import com.example.HWSpring.HWSpring.model.ShoppingCart;
-import org.springframework.context.annotation.Scope;
+import com.example.HWSpring.hwspring.model.ShoppingCart;
 import org.springframework.stereotype.Service;
-import org.springframework.web.context.annotation.RequestScope;
 import org.springframework.web.context.annotation.SessionScope;
 
 import java.util.*;
@@ -13,7 +11,7 @@ import java.util.*;
 @SessionScope
 public class OnlineStoreServiceImpl implements OnlineStoreService {
 
-    private Map<String, ShoppingCart> shoppingCartMain = new HashMap<>(Map.of());
+    private Map<String, ShoppingCart> shoppingCartMain = new HashMap<>();
 
     @Override
     public String greetingsShoppingCart() {

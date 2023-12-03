@@ -1,4 +1,4 @@
-package com.example.HWSpring.HWSpring.model;
+package com.example.HWSpring.hwspring.model;
 
 public class ShoppingCart {
     private String itemName;
